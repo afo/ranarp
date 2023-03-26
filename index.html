@@ -3,24 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Simple Webpage</title>
+<title>Ranarps nedre kvarn</title>
 <style>
   body {
+    font-family: Helvetica, Arial, sans-serif;
     background-color: black;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .content {
+    width: 100%;
+    text-align: center;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+  }
+  h1 {
+  font-size: calc(2vw + 1em);
+  margin: 0;
+  font-stretch: condensed;
+}
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: calc(4vw + 0.5em);
+    }
   }
 </style>
 </head>
 <body>
   <div class="content">
-    Ranarps Nedre Kvarn &lt;3
+    <h1>Ranarps nedre kvarn &lt;3</h1>
   </div>
 </body>
 </html>
-
