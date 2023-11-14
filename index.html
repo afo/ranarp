@@ -16,19 +16,21 @@
     height: 100vh;
     margin: 0;
     text-shadow: 2px 2px 4px #000000;
+    overflow: hidden; /* Disable scrolling */
   }
   .content {
     width: 100%;
     text-align: center;
     overflow-wrap: break-word;
-    white-space: nowrap;
+    /* Consider adjusting or removing the next line for better responsiveness */
+    /* white-space: nowrap; */
   }
   h1 {
-  font-size: calc(2vw + 1em);
-  margin: 0;
-  font-weight: lighter;
-  font-family: 'Helvetica', Helvetica, sans-serif;
-}
+    font-size: calc(2vw + 1em);
+    margin: 0;
+    font-weight: lighter;
+    font-family: 'Helvetica', Helvetica, sans-serif;
+  }
   @media screen and (max-width: 600px) {
     h1 {
       font-size: calc(4vw + 0.5em);
